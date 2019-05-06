@@ -85,4 +85,15 @@ public class GoodsController {
         service.addpl(pl);
         return null;
     }
+    
+    
+    @RequestMapping（“ adddl ”）
+    @ResponseBody
+    public  String  adddl（Pl  pl）{
+        pl 。setCommentDate（new  Date（））;
+        服务。addpl（PL）;
+        return  null ;
+    }
+    
+    
 }
